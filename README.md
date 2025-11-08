@@ -66,7 +66,7 @@ Open `notebooks/lime_shap_complete_analysis.ipynb` in Google Colab or Jupyter No
 
 ### 5. View Results
 Results are saved in the `results/` folder:
-- **lime_vs_shap_analysis.png** - Comprehensive 6-panel visualization
+- **lime_vs_shap_analysis.png** - Comprehensive 4-panel visualization
 - **analysis_summary.txt** - Detailed text report with all findings
 
 ---
@@ -107,7 +107,7 @@ Results are saved in the `results/` folder:
 ### Visualization
 ![LIME vs SHAP Analysis](results/lime_vs_shap_analysis.png)
 
-*(The image shows 6 panels: Jaccard similarity distribution, timing comparison, and most common features for each method)*
+*(The image shows 4 panels: Jaccard similarity distribution, timing comparison, and most common features for each method)*
 
 ### Key Metrics Table
 
