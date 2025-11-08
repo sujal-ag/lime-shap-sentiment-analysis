@@ -1,0 +1,47 @@
+DATASET & MODEL:
+- Dataset: IMDB Movie Reviews (50,000 total)
+- Model: Logistic Regression + TF-IDF (500 features)
+- Model Accuracy: 84.16%
+- Samples Analyzed: 20
+
+KEY FINDINGS:
+-------------
+
+1. FEATURE AGREEMENT
+   • Average Jaccard Similarity: 0.561 (56.1%)
+   • Average Feature Overlap: 6.9 out of 10 features
+   
+   Interpretation: LIME and SHAP agree on approximately 56% of 
+   important features, indicating reasonable consistency.
+
+2. COMPUTATIONAL EFFICIENCY
+   • LIME Average Time: 0.103 seconds per explanation
+   • SHAP Average Time: 0.401 seconds per explanation
+   • Speed Ratio: SHAP is 3.90x slower than LIME
+   
+   Recommendation: Use LIME for real-time applications, SHAP for detailed analysis.
+
+3. PREDICTION QUALITY
+   • Correctly Predicted: 17/20 (85.0%)
+   • Average Confidence: 78.6%
+
+4. MOST INFLUENTIAL FEATURES
+   
+   LIME Most Common: good, best, bit, don, know
+   SHAP Most Common: great, best, worst, life, just
+   
+   Both methods successfully identify sentiment-bearing words.
+
+RECOMMENDATIONS:
+----------------
+• Use LIME when: Speed is critical, quick debugging needed
+• Use SHAP when: Consistency matters, formal reporting required
+• Both methods are effective for sentiment analysis tasks
+
+LIMITATIONS:
+------------
+• Limited sample size (N=20) due to time constraints
+• Linear model only (Logistic Regression)
+• Single domain (movie reviews)
+
+Future work could expand to larger samples and deep learning models.
