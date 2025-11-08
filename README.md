@@ -35,10 +35,8 @@ This project provides a comprehensive empirical analysis comparing two leading e
 ├── results/
 │   ├── lime_vs_shap_analysis.png           # 6-panel visualization
 │   ├── analysis_summary.txt                # Detailed text report
-│   └── detailed_results.csv                # Tabular results
 ├── requirements.txt                         # Python dependencies
 ├── README.md                                # This file
-└── LICENSE                                  # MIT License
 ```
 
 ---
