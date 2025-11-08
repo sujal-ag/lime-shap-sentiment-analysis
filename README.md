@@ -206,7 +206,7 @@ All experiments use `random_state=42` for reproducibility.
 *AI Course Project - November 2025*
 
 - Email: [sujal.agarwal2023@vitstudent.ac.in, radhika.agarwal2023@vitstudent.ac.in, pritom.saha2023@vitstudent.ac.in]
-- GitHub: [@sujal-ag](https://github.com/sujal-ag), [@radhika-ag](htpps://RADHIKA281005), [@pritom-saha](https://github.com/pritomsaha20)
+- GitHub: [@sujal-ag](https://github.com/sujal-ag), [@radhika-ag](htpps://github.com/RADHIKA281005), [@pritom-saha](https://github.com/pritomsaha20)
 - University: [VIT Vellore]
 
 ---
