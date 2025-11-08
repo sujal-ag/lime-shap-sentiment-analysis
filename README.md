@@ -152,7 +152,7 @@ Results are saved in the `results/` folder:
 ## Key Findings
 
 ### 1. Feature Agreement
-- LIME and SHAP agree on approximately **X%** of features
+- LIME and SHAP agree on approximately **56%** of features
 - Higher agreement for correctly predicted samples
 - Disagreement often occurs with sarcasm and mixed sentiment
 
