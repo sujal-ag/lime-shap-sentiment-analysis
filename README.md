@@ -71,7 +71,6 @@ Open `notebooks/lime_shap_complete_analysis.ipynb` in Google Colab or Jupyter No
 Results are saved in the `results/` folder:
 - **lime_vs_shap_analysis.png** - Comprehensive 6-panel visualization
 - **analysis_summary.txt** - Detailed text report with all findings
-- **detailed_results.csv** - Sample-level results in tabular format
 
 ---
 
@@ -118,7 +117,7 @@ Results are saved in the `results/` folder:
 | Metric | Value |
 |--------|-------|
 | **Agreement** | |
-| Average Jaccard Similarity | * 0.561* |
+| Average Jaccard Similarity | *0.561* |
 | Average Feature Overlap | *6.9/10* |
 | **Efficiency** | |
 | LIME Avg Time | *0.103 seconds per explanation* |
