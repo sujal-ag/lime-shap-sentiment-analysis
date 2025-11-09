@@ -1,7 +1,6 @@
 # LIME vs SHAP: Comparative Explainability Analysis for Sentiment Classification
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **A systematic comparison of LIME and SHAP explainability techniques for NLP sentiment analysis models.**
 
@@ -35,10 +34,8 @@ This project provides a comprehensive empirical analysis comparing two leading e
 ├── results/
 │   ├── lime_vs_shap_analysis.png           # 6-panel visualization
 │   ├── analysis_summary.txt                # Detailed text report
-│   └── detailed_results.csv                # Tabular results
 ├── requirements.txt                         # Python dependencies
 ├── README.md                                # This file
-└── LICENSE                                  # MIT License
 ```
 
 ---
@@ -69,7 +66,7 @@ Open `notebooks/lime_shap_complete_analysis.ipynb` in Google Colab or Jupyter No
 
 ### 5. View Results
 Results are saved in the `results/` folder:
-- **lime_vs_shap_analysis.png** - Comprehensive 6-panel visualization
+- **lime_vs_shap_analysis.png** - Comprehensive 4-panel visualization
 - **analysis_summary.txt** - Detailed text report with all findings
 
 ---
@@ -110,7 +107,7 @@ Results are saved in the `results/` folder:
 ### Visualization
 ![LIME vs SHAP Analysis](results/lime_vs_shap_analysis.png)
 
-*(The image shows 6 panels: Jaccard similarity distribution, timing comparison, and most common features for each method)*
+*(The image shows 4 panels: Jaccard similarity distribution, timing comparison, and most common features for each method)*
 
 ### Key Metrics Table
 
@@ -155,7 +152,7 @@ Results are saved in the `results/` folder:
 ## Key Findings
 
 ### 1. Feature Agreement
-- LIME and SHAP agree on approximately **X%** of features
+- LIME and SHAP agree on approximately **56%** of features
 - Higher agreement for correctly predicted samples
 - Disagreement often occurs with sarcasm and mixed sentiment
 
@@ -208,8 +205,8 @@ All experiments use `random_state=42` for reproducibility.
 **Radhika Agarwal, Sujal Agarwal, Pritom Saha**  
 *AI Course Project - November 2025*
 
-- Email: [sujal.agarwal2023@vitstudent.ac.in]
-- GitHub: [@sujal-ag](https://github.com/sujal-ag)
+- Email: [sujal.agarwal2023@vitstudent.ac.in, radhika.agarwal2023@vitstudent.ac.in, pritom.saha2023@vitstudent.ac.in]
+- GitHub: [@sujal-ag](https://github.com/sujal-ag), [@radhika-ag](https://github.com/RADHIKA281005), [@pritom-saha](https://github.com/pritomsaha20)
 - University: [VIT Vellore]
 
 ---
